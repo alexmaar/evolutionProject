@@ -2,9 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa66772e-1549-4068-90a1-ad760c1ee632" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/World.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/WorldFX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/components/MyBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/components/MyPane.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/map/ObservableMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/mapElements/Ground.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/structures/FieldImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/visualizer/IMapObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/MapDirectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/EvolutionMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/EvolutionMap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/javaProjects.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/Animal$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/Animal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/EvolutionMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/Genes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/Grass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/IMapElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/IPositionChangeObserver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/IWorldMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/MapVisualizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/MoveDirection$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/MoveDirection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/Vector2d.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaProjects/World.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaProjects/World.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +43,34 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src/main" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1USwuBOD3cIqLYp8qRmqhmUqGZn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$" />
@@ -53,9 +88,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.World">
+  <component name="RunManager" selected="Application.WorldFX">
+    <configuration name="HelloFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloFX" />
+      <module name="javaProjects" />
+      <option name="VM_PARAMETERS" value="-p ${PATH_TO_FX} --add-modules javafx.controls" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoveDirection" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MoveDirection" />
+      <option name="MAIN_CLASS_NAME" value="structures.MoveDirection" />
       <module name="javaProjects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -68,9 +111,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WorldFX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WorldFX" />
+      <module name="javaProjects" />
+      <option name="VM_PARAMETERS" value="-p ${PATH_TO_FX} --add-modules javafx.controls" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HelloFX" />
+      <item itemvalue="Application.MoveDirection" />
+      <item itemvalue="Application.World" />
+      <item itemvalue="Application.WorldFX" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.WorldFX" />
         <item itemvalue="Application.World" />
+        <item itemvalue="Application.HelloFX" />
         <item itemvalue="Application.MoveDirection" />
       </list>
     </recent_temporary>
@@ -97,6 +156,8 @@
       <workItem from="1576480520189" duration="5209000" />
       <workItem from="1576499475248" duration="80000" />
       <workItem from="1576509187643" duration="4478000" />
+      <workItem from="1576668374785" duration="1157000" />
+      <workItem from="1576670130533" duration="10725000" />
     </task>
     <servers />
   </component>
@@ -108,27 +169,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/World.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <condition expression="map.animals.size()==2" language="JAVA" />
-          <url>file://$PROJECT_DIR$/src/main/World.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
