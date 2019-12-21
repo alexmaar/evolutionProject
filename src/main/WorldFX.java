@@ -8,6 +8,7 @@ import parameters.WorldParameters;
 import simulation.Simulation;
 import visualizer.FXVisualizer;
 
+
 public class WorldFX extends Application {
 
     public static void main(String[] args) {
@@ -18,17 +19,17 @@ public class WorldFX extends Application {
     public void start(Stage stage) throws Exception {
         stage.setTitle("Animal Land");
         //First world
-        MyPane pane = new MyPane(WorldParameters.getInstance().getWidth()*25,WorldParameters.getInstance().getHeight()*25, WorldParameters.getInstance().getWidth(), WorldParameters.getInstance().getHeight());
+        MyPane pane = new MyPane(WorldParameters.getInstance().getWidth()*10,WorldParameters.getInstance().getHeight()*10, WorldParameters.getInstance().getWidth(), WorldParameters.getInstance().getHeight());
         FXVisualizer visualizer = new FXVisualizer(pane);
-        Simulation simulation = new Simulation(1000, 20, 1000, visualizer);
+        Simulation simulation = new Simulation(10000000,85,visualizer);
         Thread firstMap = new Thread(simulation);
         firstMap.start();
         MyBox box = new MyBox(pane, firstMap);
 
         //second world
-        MyPane pane2 = new MyPane(WorldParameters.getInstance().getWidth()*25,WorldParameters.getInstance().getHeight()*25, WorldParameters.getInstance().getWidth(), WorldParameters.getInstance().getHeight());
+        MyPane pane2 = new MyPane(WorldParameters.getInstance().getWidth()*10,WorldParameters.getInstance().getHeight()*10, WorldParameters.getInstance().getWidth(), WorldParameters.getInstance().getHeight());
         FXVisualizer visualizer2 = new FXVisualizer(pane2);
-        Simulation simulation2 = new Simulation(1000, 20, 500, visualizer2);
+        Simulation simulation2 = new Simulation(100000000, 85,visualizer2);
         Thread secondMap = new Thread(simulation2);
         secondMap.start();
         MyBox box2 = new MyBox(pane2, secondMap);

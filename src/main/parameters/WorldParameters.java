@@ -36,6 +36,8 @@ public class WorldParameters {
         return parameters.startEnergy;
     }
 
+    public int getAnimalsAmount() { return parameters.animalsAmount;}
+
     public static WorldParameters getInstance(){
         if(worldParameters == null)
             worldParameters=new WorldParameters();

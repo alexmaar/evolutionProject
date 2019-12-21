@@ -4,13 +4,14 @@ import parameters.Parameters;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonSyntaxException;
-
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class JsonParser {
-    private static final String path ="/Users/aleksandramarzec/javaProjects/src/main/parameters/somefile.json";
+    private static final String path ="src/main/parameters.json".replace("/", File.separator);
+
 
     public static Parameters parse (){
         Parameters parameters=null;

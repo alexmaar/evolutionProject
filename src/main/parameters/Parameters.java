@@ -7,7 +7,7 @@ public class Parameters {
     public final int plantEnergy;
     public final double jungleRatio;
     public final int startEnergy;
-    public final int animalAmount;
+    public final int animalsAmount;
 
 
 
@@ -18,7 +18,7 @@ public class Parameters {
         this.plantEnergy=plantEnergy;
         this.jungleRatio=jungleRatio;
         this.startEnergy=startEnergy;
-        this.animalAmount=animalAmount;
+        this.animalsAmount=animalAmount;
 
     }
 
